@@ -1,4 +1,4 @@
-Title: Halifax Transit Ferry - MonTran…
+Title: Halifax Transit Ferry - MonTr…
 ----------
 Short description:
 Halifax Transit ferries for MonTransit BETA.
@@ -11,7 +11,7 @@ Tweets from @hfxtransit.
 BETA: Thanks for your patience while the last features are being added and the last bugs are being fixed.
 ----------
 Full description:
-This app adds Halifax Transit (Metro Transit, MetroLink, MetroX) ferries information to MonTransit BETA.
+This app adds Halifax Transit (Metro Transit) ferries information to MonTransit BETA.
 
 This app provides the schedule as well as real time major disruptions and news from @hfxtransit on Twitter.
 
