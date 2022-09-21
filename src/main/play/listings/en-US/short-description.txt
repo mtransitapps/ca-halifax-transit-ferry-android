@@ -1,2 +1,1 @@
-Halifax Transit ferries for MonTransit.
-Schedule. News. Major Disruptions.
+Halifax Transit ferries for MonTransit. Schedule. News. Major Disruptions.
