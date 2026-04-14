@@ -103,6 +103,8 @@ public class HalifaxTransitFerryAgencyTools extends DefaultAgencyTools {
 	public String fixColor(@Nullable String color) {
 		if ("7476D9".equalsIgnoreCase(color)) { // purple
 			return AGENCY_COLOR;
+		} else if ("0000FF".equalsIgnoreCase(color)) { // blue
+			return AGENCY_COLOR;
 		}
 		return super.fixColor(color);
 	}
