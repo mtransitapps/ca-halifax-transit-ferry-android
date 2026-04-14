@@ -9,7 +9,7 @@ workflows:
   mt-workflow:
     when:
       not:
-        - equal: [ true, << pipeline.event.github.pull_request.draft >> ]
+        equal: [ true, << pipeline.event.github.pull_request.draft >> ]
     jobs:
       - mt-job:
           context:
