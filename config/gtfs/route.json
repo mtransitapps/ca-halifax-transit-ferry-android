@@ -1,0 +1,43 @@
+{
+    "default_route_id_enabled": true,
+    "use_route_short_name_for_route_id": true,
+    "route_short_name_cleaners": [
+        {
+            "regex": "FerD",
+            "replacement": "ALD"
+        },
+        {
+            "regex": "FerW",
+            "replacement": "WS"
+        }
+    ],
+    "route_short_name_to_route_id_configs": [
+        {
+            "route_short_name": "ALD",
+            "route_id": 100001
+        },
+        {
+            "route_short_name": "WS",
+            "route_id": 100002
+        }
+    ],
+    
+    "default_route_long_name_enabled": true,
+    "route_colors_ignored": [
+        "7476D9",
+        "0000FF"
+    ],
+    "direction_finder_enabled": true,
+    "stop_id_clean_merged": true,
+    "use_stop_id_for_stop_code": true,
+    "stop_name_cleaners": [
+        {
+            "regex": "(ferry stop - )",
+            "ignore_case": true
+        },
+        {
+            "regex": "( \\([\\d]+\\)$)",
+            "ignore_case": true
+        }
+    ]
+}
